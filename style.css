@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+CSS stilovi
+--------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F2F2F2;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  background: #282C34;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #18191B;
+}
+
+header > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+  font-weight: 200;
+  color: white;
+}
+
+header > p {
+  margin-top: 10px;
+  font-size: 80%;
+  font-weight: 100;
+  color: white;
+}
+
+.wrapper {
+  margin: 1em;
+  padding: 1em;
+  border: 1px dotted #41444B;
+}
+
+/*--------------------------------------------------------------
+Box
+--------------------------------------------------------------*/
+
+.box {
+  padding: 1em;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.box1 {
+  background-color: #303F9F;
+}
+
+.box2 {
+  background-color: #673AB7;
+  background-image: url('img/dots.svg');
+}
+
+.box3 {
+  background-color: #0288D1;
+}
+
+.box4 {
+  background-color: #00BCD4;
+}
+
+.box5 {
+  background-color: #388E3C;
+}
+
+.box6{
+  background-color: #8BC34A;
+}
+
+.box7 {
+  background-color: #CDDC39;
+}
+
+.box8 {
+  background-color: #FFEB3B;
+}
+
+
+.box9 {
+  background-color: #F57C00;
+}
+
+.box10 {
+  background-color: #FF5722;
+}
+
+.box11 {
+  background-color: #795548;
+}
+
+.box12 {
+  background-color: #607D8B;
+}
+/*
+.box:nth-child(odd) {
+  background-color: #333;
+}
+
+.box:nth-child(even) {
+  background-color: #444;
+}
